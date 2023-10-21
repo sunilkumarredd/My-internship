@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WELCOME TO MY PROFILE PORTFOLIO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #84b1e8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0b0a0a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        
+        .about {
+            text-align: center;
+        }
+
+        .skills {
+            text-align: center;
+        }
+        .Service {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .contact {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>sunil kumar reddy- PORTFOLIO</h1>
+    </header>
+
+    <nav>
+       
+        <a href="#About">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="#Services">Services</a>
+    </nav>
+
+    <div class="container" id="About">
+        <h2>About</h2>
+        <div class="About">
+            <img src="sunil.jpg" alt="sunil">
+            <p>Hi, I'm sunil kumar reddy. I'm a web developer with a passion for creating amazing websites,in my journey to skills as a web developer,i've poured my heart and soul into creating a sleek and dynamic portfolio site using HTML,CSS,and javascript.</p>
+        </div>
+    </div>
+
+    <div class="container" id="skills">
+        <h2>Skills</h2>
+            <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container" id="Services">
+        <h2>Services</h2>
+        <ul>
+           <li>web developer</li>
+           <li>app developer</li>
+           <li>designer</li>
+        </ul>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <div class="contact">
+            <p>You can contact me at: <a href="mailto:chndsnl@gmail.com">chndsnl@gmail.com</a></p>
+        </div>
+    </div>
+    </div>   
+    
+
+    <footer>
+        &copy; 2023 sunil
+    </footer>
+</body>
+</html>
